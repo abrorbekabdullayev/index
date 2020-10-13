@@ -1,0 +1,37 @@
+body {
+    background-color: darkslategray;
+    font-family: sans-serif; 
+
+}
+.contanier {
+    height: 100vh;
+    position: relative;
+}
+.box h2 {
+    text-transform: uppercase;
+}
+
+}
+.box {
+    background-color: #fff;
+    width: 420px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.form-control input {
+height: 25px;
+width: 180px;
+}
+.btn {
+    width: 180px;
+    margin: 0 auto;
+}
